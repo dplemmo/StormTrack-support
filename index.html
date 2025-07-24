@@ -20,13 +20,21 @@
     }
     section {
       padding: 20px;
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
     }
-    img {
-      width: 100%;
-      margin: 10px 0;
-      border-radius: 10px;
+    h1, h2 {
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #ff7a00;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     footer {
       background-color: #222;
@@ -34,10 +42,28 @@
       text-align: center;
       padding: 20px;
       font-size: 0.9em;
+      margin-top: 40px;
     }
-    a {
-      color: #ff7a00;
-      text-decoration: none;
+
+    /* Screenshot grid layout */
+    .screenshot-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .screenshot-grid img {
+      width: 48%;
+      margin: 10px 0;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 600px) {
+      .screenshot-grid img {
+        width: 100%;
+      }
     }
   </style>
 </head>
@@ -58,11 +84,16 @@
       <li>📍 <strong>Driving Speed Indicator</strong> displays your current speed</li>
       <li>🗺️ <strong>Full Route Overview & Turn List</strong> at any time</li>
     </ul>
+  </section>
 
-    <img src="screenshot_1.jpg" alt="Storm map screenshot 1" />
-    <img src="screenshot_2.jpg" alt="Storm map screenshot 2" />
-    <img src="screenshot_3.jpg" alt="Alert detail screenshot" />
-    <img src="screenshot_4.jpg" alt="Radar screenshot" />
+  <section>
+    <h2>📷 App Screenshots</h2>
+    <div class="screenshot-grid">
+      <img src="screenshot_1.jpg" alt="Storm map screenshot 1" />
+      <img src="screenshot_2.jpg" alt="Storm map screenshot 2" />
+      <img src="screenshot_3.jpg" alt="Alert detail screenshot" />
+      <img src="screenshot_4.jpg" alt="Radar screenshot" />
+    </div>
   </section>
 
   <section>
@@ -77,4 +108,3 @@
   </footer>
 </body>
 </html>
-
