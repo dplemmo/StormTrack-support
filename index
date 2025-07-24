@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>StormTrack Support</title>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live StormTrack Navigator Support</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #ff7a00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    img {
+      width: 100%;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    a {
+      color: #ff7a00;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Live StormTrack Navigator Support</h1>
-  <p>Need help? Email us at support@example.com</p>
-  <p>Check back soon for FAQs and updates.</p>
+  <header>
+    <h1>Live StormTrack Navigator</h1>
+    <p>Support & Feature Overview</p>
+  </header>
+
+  <section>
+    <h2>🚗 Real-Time Navigation + Weather Awareness</h2>
+    <ul>
+      <li>📡 <strong>Current Radar Overlays</strong> show precipitation, storms, and more in real time</li>
+      <li>💨 <strong>Live Wind Data</strong> (speed & direction) shown along your route</li>
+      <li>🚨 <strong>NWS Alerts & Warnings</strong> shown directly on the map along your path</li>
+      <li>🧭 <strong>Turn-by-Turn Voice Navigation</strong> — a unique feature among weather routing apps</li>
+      <li>🌤️ <strong>Always Shows Current Weather</strong> based on your real location</li>
+      <li>📍 <strong>Driving Speed Indicator</strong> displays your current speed</li>
+      <li>🗺️ <strong>Full Route Overview & Turn List</strong> at any time</li>
+    </ul>
+
+    <img src="Simulator Screenshot - iPhone 15 - 2025-07-22 at 15.34.13.png" alt="Storm map screenshot 1" />
+    <img src="083cf5d8-3b75-49b1-b494-4b28164903bd.png" alt="Storm map screenshot 2" />
+    <img src="b6e7b98f-3508-4526-b07a-41b772a55202.png" alt="Alert detail screenshot" />
+    <img src="138f333b-417e-4a3d-91b2-16118f208e05.png" alt="Radar screenshot" />
+  </section>
+
+  <section>
+    <h2>📄 Legal & Contact</h2>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+    <p><a href="eula.html">End User License Agreement (EULA)</a></p>
+    <p>Contact us at: <a href="mailto:support@stormtracknavigator.com">support@stormtracknavigator.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Live StormTrack Navigator. All rights reserved.
+  </footer>
 </body>
 </html>
+
